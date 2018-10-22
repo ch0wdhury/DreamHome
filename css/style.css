@@ -3,7 +3,6 @@
 	padding: 0;
 }
 
-
 /* Header Start */
 header {
 	background-image: url(../images/banner.jpeg);
@@ -25,26 +24,27 @@ header {
 	float: left;
 }
 .logo img {
-	width: 100%;
+	width: 80%;
 	padding: 5px 0 5px 5px;
 }
 .menu {
-	width: 70%;
+	width: 60%;
 	float: right;
 }
 .menu ul {
 	list-style: none;
-	float: right;
-	padding-top: 25px;
+	float: left;
+	padding-top: 30px;
 }
 .menu ul li {
 	float: left;
 }
 .menu ul li a {
 	text-decoration: none;
-	padding-right: 50px;
+	padding-right: 70px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
+	display: block;
 	color: grey;
 	transition: .5s ease;
 }
@@ -61,7 +61,8 @@ header {
 	background-image: url(../images/banner.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 600px;
+	background-position: top center;
+	height: 650px;
 }
 .banner_wrapper {
 	width: 90%;
@@ -70,36 +71,40 @@ header {
 	box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.6);
 	border-top-color: white;
 	border-bottom-color: white;
-	min-height: 600px;
+	min-height: 650px;
 }
 .banner_content {
-	margin-top: 90px;
-	width: 35%;
+	margin-top: 120px;
+	width: 30%;
 	background-color:rgba(60, 60, 60, 0.7);
+	min-height: 300px;
 }
 .banner_content h2 {
+	width: 80%;
 	font-family: 'Roboto', sans-serif;
-	font-size: 33px;
+	font-size: 35px;
+	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.9);
 	font-weight: 300;
-	padding: 25px 0 0 20px;
+	padding: 30px 0 0 20px;
 }
 .banner_content p {
+	width: 80%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	line-height: 1.5;
 	color: rgba(255, 255, 255, 0.7);
 	font-weight: 300;
-	padding: 10px 20px 0 20px;
+	padding: 20px 20px 0 20px;
 }
 .banner_content button {
-	padding: 0 20px 0 20px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	color: rgba(255, 255, 255, 0.5);
 	background-color:rgba(60, 60, 60, 0.9);
 	border-style: hidden;
-	padding: 7px 27px 7px 27px;
-	margin: 20px 20px 25px 20px;
+	padding: 9px 30px 9px 30px;
+	margin: 30px 20px 25px 20px;
 	transition: .5s ease;
 }
 .banner_content button:hover {
@@ -126,8 +131,10 @@ header {
 .service_content {
 	width: 30%;
 	float: left;
+	position: relative;
 	margin-left: 20px;
 	margin-top: 80px;
+	min-height: 270px;
 }
 .service_content:first-child {
 	margin-left: 30px;
@@ -153,16 +160,20 @@ header {
 	padding-left: 30px;
 }
 .service_content button {
+	width: 15%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 10px;
 	text-align: center;
 	color: white;
 	margin-top: 20px;
-	margin-left: 120px;
 	background-color: #455566;
 	border-radius: 3px;
 	border-style: hidden;
 	padding: 5px 10px 5px 10px;
+	position: absolute;
+	bottom: 0;
+	left: 44%;
+	margin: 0 auto;
 	transition: .5 ease;
 }
 .service_content button:hover {
@@ -172,9 +183,6 @@ header {
 /* Service End */
 
 /* Footer Start */
-.footer_wrapper {
-}
-
 .footer_top {
 	padding-top: 450px;
 	text-align: center;
@@ -193,10 +201,10 @@ header {
 	margin-top: 20px;
 }
 .footer_bottom img {
-	width: 15%;
-	margin-left: 5px;
+	width: 10%;
+	margin: 0 auto;
 }
 .footer_bottom img:first-child {
-	margin-left: 50px;
+	margin-left: 100px;
 }
 /* Footer End */
